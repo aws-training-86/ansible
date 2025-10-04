@@ -1,0 +1,23 @@
+{
+    "name": "sivakumar reddy",
+    "dob": "01-01-01",
+    "address":[
+      {
+        "type": "Current",
+        "doono": "1-23",
+        "street": "gandhi nagar",
+        "city": "hyd",
+        "pin": "50082"
+      },
+      {
+        "type": "prem",
+        "doono": "1-23",
+        "street": "gandhi nagar",
+        "city": "hyd",
+        "pin": "50082"
+      }
+
+    ],
+    "skills": ["java", "devops", "cloud"]
+
+}
