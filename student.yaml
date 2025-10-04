@@ -1,0 +1,22 @@
+- name: "Sanjay Kumar"
+  dob: "01-01-01"
+  age: "21"
+  address:
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: "hyderabad"
+    pin: "534565"
+    type: "current"
+
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: "hyderabad"
+    pin: "534565"
+    type: "prem"
+
+  skills:
+   - java
+   - cloud
+   - devops
+
+  
