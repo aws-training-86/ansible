@@ -1,0 +1,12 @@
+- name: loops
+  hosts: local
+  conection: local
+  tasks:
+  - name: print names
+    anisble.builtin.debug:
+      msg: "Hello {{ item }}" # item is reserved
+    loop:
+    - Ramesh:
+    - Suresh:
+    - Raheem:
+    - John:
