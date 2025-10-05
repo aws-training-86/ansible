@@ -1,6 +1,7 @@
 - name: install packages
   hosts: local
   connection: local
+  become: yes #using root credentails
   tasks:
   - name: print names
     ansible.builtin.package:
