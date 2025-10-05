@@ -1,12 +1,13 @@
 - name: check the facts
   hosts: local
   connection: local
+  become: yes #using root credentails
   tasks:
   - name: install nginx if redhat
     ansible.builtin.dnf:
       name: nginx
       state: latest
-    when: ansible_os_family == "Redhat" #use ansible_while reffering the facts
+    when: ansible_os_family == "RedHat" #use ansible_while reffering the facts
 
   - name: install nginx if redhat
     ansible.builtin.dnf:
