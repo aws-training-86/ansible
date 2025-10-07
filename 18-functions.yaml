@@ -11,5 +11,5 @@
   # string to list
   - name: convert string to list
     anisble.builtin.debug:
-      msg: "Technologies are: {{ technologies | split(',') }}"    
+      msg: "Technologies are: {{ technologies | split(',') }}"   #wfi
 
